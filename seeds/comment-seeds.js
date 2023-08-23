@@ -2,18 +2,17 @@ const { Comment } = require("../models");
 
 const commentData = [
   {
-    comment_text: "I really love coding!!",
+    comment_text: "That's great!!",
     user_id: 1,
     post_id: 1,
   },
   {
-    comment_text: "React is a great tool that I use everyday.",
+    comment_text: "Any other suggestions?",
     user_id: 2,
     post_id: 2,
   },
   {
-    comment_text:
-      "I never knew that coding could be so much fun. I am truly addicted.",
+    comment_text: "Meetings are every other Thursday. 😉",
     user_id: 3,
     post_id: 3,
   },
