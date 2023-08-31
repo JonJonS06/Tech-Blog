@@ -1,4 +1,4 @@
-const { Comment } = require("../models");
+const { Comment } = require('../models');
 
 const commentData = [
   {
@@ -7,12 +7,12 @@ const commentData = [
     post_id: 1,
   },
   {
-    comment_text: "Any other suggestions?",
+    comment_text: 'Any other suggestions?',
     user_id: 3,
     post_id: 2,
   },
   {
-    comment_text: "Meetings are every other Thursday. 😉",
+    comment_text: 'Meetings are every other Thursday.',
     user_id: 1,
     post_id: 3,
   },
