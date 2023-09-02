@@ -17,17 +17,19 @@
 
 ## Description
 
-
+The application was designed to allow users to blog their thoughts and ideas. It allows other users to view the posts and add comments to them. The structure follows the Model View Controller (MVC) paradigm and utilizes Handlebars.js for the template language. 
 
 ## License
 
-[![MIT Licence](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+None
 
 ## Technologies Used
 
-![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white) ![Sequelize](https://img.shields.io/badge/sequelize-323330?style=for-the-badge&logo=sequelize&logoColor=blue) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white) ![Sequelize](https://img.shields.io/badge/sequelize-323330?style=for-the-badge&logo=sequelize&logoColor=blue) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
 
 ## Screenshots
+
+Homepage Image ![image](public/images/HomePage.png) User Dashboard ![image](public/images/UserDashboard.png) Comment Page ![image](public/images/CommentPage.png)
 
 ## Deployed Application
 
@@ -50,7 +52,7 @@ npm init --y
 ```
 
 ```terminal
-npm install express sequelize mysql2
+npm install
 ```
 
 Open MySQL shell in the terminal and enter:
@@ -59,22 +61,13 @@ Open MySQL shell in the terminal and enter:
 source db/schema.sql;
 ```
 
-and
-
-```terminal
-use ;
-```
-
 Once that is complete you will "quit" to exit out of MySQL.
-
 
 To start the server listening:
 
 ```terminal
-npm start
+node server.js
 ```
-
-
 
 ## Acknowledgements
 
@@ -84,4 +77,4 @@ Thank you as always to our Bootcamp instructor and TA's for the instruction and 
 
 Please feel free to contact me with any questions or suggestions at [jonjon1106@gmail.com](mailto:jonjon1106@gmail.com) or you can view my other projects at [Jonathan Strickland](https://github.com/jonjons06)
 
-[🔼 Back to Top](#e-commerce-backend)
+[🔼 Back to Top](#tech-blog)
