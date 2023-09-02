@@ -8,6 +8,7 @@
   - [License](#license)
   - [Technologies Used](#technologies-used)
   - [Screenshots](#screenshots)
+  - [Deployed Application](#deployed-application)
   - [Installation](#installation)
   - [Acknowledgements](#acknowledgements)
   - [Contributors / Contact Info](#contributors--contact-info)
@@ -27,6 +28,10 @@
 ![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white) ![Sequelize](https://img.shields.io/badge/sequelize-323330?style=for-the-badge&logo=sequelize&logoColor=blue) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 
 ## Screenshots
+
+## Deployed Application
+
+View the deployed application here ➡️  [Heroku Deployment](https://peaceful-springs-77627-03d7052ca0da.herokuapp.com)
 
 ## Installation
 
